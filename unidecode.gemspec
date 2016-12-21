@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = "unidecode"
-  s.version = "1.0.0"
-  s.date = "2007-09-05"
+  s.version = "1.0.1"
+  s.date = "2016-12-21"
   s.summary = "A library for converting (transliterating) UTF-8 strings to plain ASCII representations"
-  s.authors = ["Russell Norris"]
-  s.email = "rsl@luckysneaks.com"
+  s.authors = ["Russell Norris", "Daniel Rench"]
+  s.email = "drench+github@gmail.com"
   s.files = [
     "README",
     "lib/data/x00.yml",
