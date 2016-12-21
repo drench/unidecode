@@ -6,7 +6,7 @@ A library for transliteratively converting UTF-8 text to US-ASCII.
 
   require "rubygems"
   require "unidecode"
-  
+
   puts "Михаил Горбачёв".to_ascii # => "Mikhail Gorbachiov"
 
 = Requirements

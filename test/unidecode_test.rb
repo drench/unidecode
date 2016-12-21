@@ -48,7 +48,7 @@ class UnidecodeTest < Test::Unit::TestCase
     "私はガラスを食べられます。それは私を傷つけません。" => # French
       "Si hagarasuwoShi beraremasu. sorehaSi woShang tukemasen. ",
   }
-  
+
   def test_unicode_decode
     DONT_CONVERT.each do |ascii|
       assert_equal ascii, Unidecoder::decode(ascii)
@@ -57,7 +57,7 @@ class UnidecodeTest < Test::Unit::TestCase
       assert_equal ascii, Unidecoder::decode(unicode)
     end
   end
-  
+
   def test_to_ascii
     DONT_CONVERT.each do |ascii|
       assert_equal ascii, ascii.to_ascii
